@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './assets/fonts/Gilroy-Medium.ttf';
-import './App.css';
+import './LandingPage.css';
 import { Component } from "react";
 import styled, { css } from "styled-components";
-import './assets/images/Group_1111.png'
+import './assets/images/Group_1111.png';
+import './assets/fonts/Gilroy-Medium.ttf';
+import './assets/fonts/Raleway-Light.ttf';
+import './assets/fonts/Raleway-Medium.ttf';
 
 function LandingPage(props) {
   return (
@@ -58,18 +60,18 @@ const Container = styled.div`
 `;
 
 const AboutMe = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
 `;
 
 const Skills = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
@@ -77,9 +79,9 @@ const Skills = styled.span`
 `;
 
 const Achievements = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
@@ -87,9 +89,9 @@ const Achievements = styled.span`
 `;
 
 const Research = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
@@ -97,9 +99,9 @@ const Research = styled.span`
 `;
 
 const Projects = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
@@ -107,9 +109,9 @@ const Projects = styled.span`
 `;
 
 const Gallery = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
@@ -117,9 +119,9 @@ const Gallery = styled.span`
 `;
 
 const Contact = styled.span`
-  font-family: Gilroy;
+  font-family: Gilroy-Medium;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: rgba(255,255,255,1);
   font-size: 13px;
   margin-right: 35px;
@@ -154,8 +156,8 @@ const NameOverlapRow = styled.div`
 `;
 
 const NameOverlap = styled.span`
-  font-family: Raleway;
-  font-style: UltraLight;
+  font-family: Raleway-Light;
+  font-style: normal;
   letter-spacing: 60px;
   font-weight: 200;
   color: rgba(255,255,255,1);
@@ -166,7 +168,7 @@ const NameOverlap = styled.span`
 
 
 const Dev = styled.span`
-  font-family: Raleway;
+  font-family: Raleway-Medium;
   font-style: normal;
   font-weight: 500;
   color: rgba(255,255,255,1);
