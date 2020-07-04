@@ -1,5 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
+import Home from './Home';
+import AboutMePage from "./AboutMePage";
+import SkillsPage from "./SkillsPage";
+import AchievementsPage from "./AchievementsPage";
+import ResearchPage from "./ResearchPage";
+import ProjectsPage from "./ProjectsPage";
+import GalleryPage from "./GalleryPage";
+import ContactPage from "./ContactPage";
 import './LandingPage.css';
 import { Component } from "react";
 import styled, { css } from "styled-components";
@@ -7,201 +15,68 @@ import './assets/images/Group_1111.png';
 import './assets/fonts/Gilroy-Medium.ttf';
 import './assets/fonts/Raleway-Light.ttf';
 import './assets/fonts/Raleway-Medium.ttf';
+import { NavLink, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-function LandingPage(props) {
+class LandingPage extends React.Component {
+  render() {
   return (
-    <Container>
-      <AboutMeRow>
-        <AboutMe>About Me</AboutMe>
-        <Skills>Skills</Skills>
-        <Achievements>Achievements</Achievements>
-        <Research>Research</Research>
-        <Projects>Projects</Projects>
-        <Gallery>Gallery</Gallery>
-        <Contact>Contact</Contact>
-      </AboutMeRow>
-      <div style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}>
-      <ImageRow>
-        <Image src={require("./assets/images/LandingPage.png")}></Image>
-      </ImageRow>
+      <div className="LandingPage">
+        <div className="AboutMeRow">
+          <Router>
+            <nav>
+              <div className="AboutMe"><Lnk to="/AboutMePage">About Me</Lnk></div>
+              <div className="Skills"><Lnk to="/SkillsPage">Skills</Lnk></div>
+              <div className="Achievements"><Lnk to="/AchievementsPage">Achievements</Lnk></div>
+              <div className="Research"><Lnk to="/ResearchPage">Research</Lnk></div>
+              <div className="Projects"><Lnk to="/ProjectsPage">Projects</Lnk></div>
+              <div className="Gallery"><Lnk to="/GalleryPage">Gallery</Lnk></div>
+              <div className="Contact"><Lnk to="/ContactPage">Contact</Lnk></div>
+            </nav>
+          </Router>
+        </div>
+        <React.Fragment>
+          <Router>
+            <Switch>
+              <Route path='/AboutMePage' component={AboutMePage} />
+              <Route path='/SkillsPage' component={SkillsPage} />
+              <Route path='/AchievementsPage' component={AchievementsPage} />
+              <Route path='/ResearchPage' component={ResearchPage} />
+              <Route path='/ProjectsPage' component={ProjectsPage} />
+              <Route path='/GalleryPage' component={GalleryPage} />
+              <Route path='/ContactPage' component={ContactPage} />
+              <Route path='/' component={Home} />
+            </Switch>
+            <Redirect to="/Home"></Redirect>
+          </Router>
+        </React.Fragment>
       </div>
-      <div style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}>
-      <NameOverlapRow>
-        <NameOverlap>RANK JAY</NameOverlap>
-      </NameOverlapRow>
-      </div>
-      <div style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}>
-      <NameRow>
-        <Dev>Dreamer. Designer. Developer.</Dev>
-      </NameRow>
-      </div>
-    </Container>
   );
 }
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  background: radial-gradient(rgba(5,5,5,1) 0%, rgba(0,0,0,1) 100%);
-  height: 100vh;
-  width: 100vw;
-`;
-
-const AboutMe = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-`;
-
-const Skills = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Achievements = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Research = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Projects = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Gallery = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Contact = styled.span`
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 450;
-  color: rgba(255,255,255,1);
-  font-size: 13px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const AboutMeRow = styled.div`
-  height: 20px;
-  flex-direction: row;
-  display: flex;
-  margin-top: 42px;
-  margin-left: 524px;
-  margin-right: 86px;
-`;
-
-
-
-const ImageRow = styled.div`
-  margin-top: 200px;
-`;
+}
 
 const Image = styled.img`
-  width: 1200px;
-  height: 200%;
-  object-fit: contain;
+  width: 80%;
+  align: center;
+  height: 80%;
 `;
-
-
-
-const NameOverlapRow = styled.div`
-  margin-top: -160px;
+const Lnk = styled(Link)`
+    text-decoration: none;
+    color: #ffffff;
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
 `;
-
-const NameOverlap = styled.span`
-  font-family: Raleway-Light;
-  font-style: normal;
-  letter-spacing: 60px;
-  font-weight: 200;
-  color: rgba(255,255,255,1);
-  font-size: 33px;
-  margin-left: 50px;
-`;
-
 
 
 const Dev = styled.span`
   font-family: Raleway-Medium;
   font-style: normal;
   font-weight: 500;
-  color: rgba(255,255,255,1);
   font-size: 30px;
+  height: 100%;
+  width: 100%;
+  margin-top: 130px;
 `;
-
-const NameRow = styled.div`
-  height: 20px;
-  flex-direction: row;
-  display: flex;
-  margin-top: 75px;
-`;
-
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
 export default LandingPage;
