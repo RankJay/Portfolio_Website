@@ -1,0 +1,80 @@
+.AboutMePage {
+  color: #ffffff;
+}
+
+.Content {
+min-height: 100vh;
+display: inline-flex;
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+margin-top: -3%;
+}
+
+.AboutMeRow {
+display: inline-block;
+font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 13px;
+  color: #ffffff;
+  margin-top: 42px;
+  margin-left: 35%;
+  word-spacing: 50 px;
+}
+.AboutMe {
+display: inline-block;
+margin-right: 35px;
+}
+.Skills {
+display: inline-block;
+margin-left: 35px;
+margin-right: 35px;
+}
+.Achievements {
+display: inline-block;
+margin-left: 35px;
+margin-right: 35px;
+}
+.Research {
+display: inline-block;
+margin-left: 35px;
+margin-right: 35px;
+}
+.Projects {
+display: inline-block;
+margin-left: 35px;
+margin-right: 35px;
+}
+.Gallery {
+display: inline-block;
+margin-left: 35px;
+margin-right: 35px;
+}
+.Contact {
+display: inline-block;
+margin-left: 35px;
+margin-right: 35px;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(./assets/fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: local('Raleway-Light'), url(./assets/fonts/Raleway-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: local('Raleway-Medium'), url(./assets/fonts/Raleway-Medium.ttf) format('truetype');
+}
+body {
+  background-color: #000000;
+  height: 100%;
+}
