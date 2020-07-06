@@ -85,11 +85,7 @@ h1 {
     font-size: 20px;
   }
   .AboutMeRow {
-    font-size: 6px;
-    display: inline-block;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+    display: none;
   }
 
   .AboutMe {
@@ -130,12 +126,7 @@ h1 {
 
 @media screen and (max-width: 500px) {
   .AboutMeRow {
-    color: #000000;
-    font-size: 5px;
-    display: inline-block;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+    display: none;
   }
   .AboutMe {
     display: inline-block;
