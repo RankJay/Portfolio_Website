@@ -1,27 +1,6 @@
 .LandingPage {
     color: #ffffff;
   }
-  .Test {
-    min-width: 100vh;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    margin-top: 12%;
-  }
-  .Content {
-    min-height: 100vh;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #ffffff;
-    margin-top: -3%;
-  }
 
 .AboutMeRow {
   display: inline-block;
@@ -69,62 +48,10 @@
   margin-right: 35px;
 }
 
-h1 {
-  font-family: Raleway-Light;
-  font-style: normal;
-  white-space: nowrap;
-  letter-spacing: 60px;
-  font-weight: 200;
-  margin-top: -130px;
-  margin-left: 55px;
-  font-size: 33px;
-}
   
-@media screen and (max-width: 1024px) {
-  h1 {
-    font-size: 20px;
-  }
-  .AboutMeRow {
-    display: none;
-  }
-
-  .AboutMe {
-    display: inline-block;
-    margin-right: 12px;
-  }
-  .Skills {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  .Achievements {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  .Research {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  .Projects {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  .Gallery {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  .Contact {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-}
 
 @media screen and (max-width: 500px) {
+  
   .AboutMeRow {
     display: none;
   }
@@ -163,6 +90,49 @@ h1 {
     margin-right: 8px;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+  .AboutMeRow {
+    display: none;
+  }
+
+  .AboutMe {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .Skills {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .Achievements {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .Research {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .Projects {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .Gallery {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .Contact {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+
   @font-face {
     font-family: 'Gilroy-Medium';
     src: local('Gilroy-Medium'), url(./assets/fonts/Gilroy-Medium.ttf) format('truetype');
