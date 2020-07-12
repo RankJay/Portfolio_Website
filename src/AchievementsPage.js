@@ -17,8 +17,8 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 class AchievementsPage extends React.Component {
   render() {
     return (
-    <div className="AboutMeRow">
-    </div>
+      <div className='AchievementsPage'>
+      </div>
   );
 }
 }
