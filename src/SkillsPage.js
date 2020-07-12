@@ -16,11 +16,19 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 class SkillsPage extends React.Component {
   render() {
-  return (
-    <div className="AboutMeRow">
-    </div>
-  );
-}
+    return (
+      <div className='SkillsPage'>
+        <div className='list'>
+          <ul>
+            <li><span>Designing/Prototyping Skills</span></li>
+            <li><span>Programming Skills</span></li>
+            <li><span>Research/Evangelist Skills</span></li>
+            <li><span>Technical Skills</span></li>
+          </ul>
+        </div>
+      </div>
+    );
+  }
 }
 const Lnk = styled(Link)`
     text-decoration: none;
