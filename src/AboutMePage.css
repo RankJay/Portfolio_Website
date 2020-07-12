@@ -15,6 +15,8 @@
   letter-spacing: 1px;
   margin-top: 13%;
   margin-left: 5%;
+  -webkit-animation: Hi 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: Hi 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .AboutMeContent {
@@ -27,9 +29,117 @@
   margin-left: 20%;
 }
 
-.filmtocat {
-  
+@-webkit-keyframes Hi {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
 }
+@keyframes Hi {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+@media Screen and (max-width: 500px) {
+  .AboutMePage {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+  }
+
+  .AboutMeTitle {
+    display: none;
+    margin-left: -25%;
+    margin-top: 40%;
+  }
+
+  .Hi {
+    display: none;
+    text-align: center;
+    align-content: center;
+    margin-top: 45%;
+    margin-left: 0%;
+  }
+  .AboutMeContent {
+    display: none;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 27%;
+    font-size: 5px;
+  }
+  .filmtocat {
+    display: none;
+    align-items: center;
+    align-content: center;
+    margin-right: 37%;
+    margin-top: 10%;
+  }
+}
+
+
+@media Screen and (max-width: 1024px) {
+  .AboutMePage {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+  }
+  .AboutMeTitle {
+    text-align: center;
+    align-content: center;
+    margin-left: 50%;
+    margin-top: -105%;
+    
+  }
+  .Hi {
+    text-align: center;
+    align-content: center;
+    margin-top: 45%;
+    margin-left: -50%;
+  }
+  .AboutMeContent {
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+  .filmtocat {
+    align-items: center;
+    align-content: center;
+    margin-right: 120%;
+    margin-top: 40%;
+    width: 200%;
+    height: 200%;
+  }
+}
+
 
 @font-face {
   font-family: 'Gilroy-Medium';
