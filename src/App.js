@@ -1,153 +1,108 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Link } from 'react-router-dom';
 import './App.css';
-import './LandingPage.js';
-import './assets/fonts/Gilroy-Medium.ttf';
-import { Component } from "react";
 import styled, { css } from "styled-components";
-import './assets/images/Group_1111.png'
+import M from 'materialize-css';
+import carousel from "materialize-css/dist/js/materialize.min.js";
+import "materialize-css/dist/css/materialize.min.css";
+import Carousel from 'react-bootstrap/Carousel'
 
-function Default(props) {
-  return (
-    <Container>
-      <AboutMeRow>
-        <AboutMe><a
-          className="App-link"
-          href="./LandingPage.js"
-          target="_blank"
-          rel="noopener noreferrer"
-        >About Me</a></AboutMe>
-        <Skills>Skills</Skills>
-        <Achievements>Achievements</Achievements>
-        <Research>Research</Research>
-        <Projects>Projects</Projects>
-        <Gallery>Gallery</Gallery>
-        <Contact>Contact</Contact>
-      </AboutMeRow>
-      <div style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}>
-      <Image src={require("./assets/images/Group_1111.png")}></Image>
-      </div>
-    </Container>
-  );
-}
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0,0,0,1);
-  height: 100vh;
-  width: 100vw;
-`;
-
-const AboutMe = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-`;
-
-const Skills = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Achievements = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Research = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Projects = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Gallery = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const Contact = styled.span`
-  font-family: Gilroy;
-  font-style: medium;
-  font-weight: 500;
-  color: rgba(255,255,255,1);
-  font-size: 14px;
-  margin-right: 35px;
-  margin-left: 35px;
-`;
-
-const AboutMeRow = styled.div`
-  height: 20px;
-  flex-direction: row;
-  display: flex;
-  margin-top: 42px;
-  margin-left: 524px;
-  margin-right: 86px;
-`;
-
-const Image = styled.img`
-  width: 742px;
-  height: 75%;
-  margin-top: 100px;
-  object-fit: contain;
-`;
 
 function App() {
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Carousel controls={false} >
+        <Carousel.Item  id="reflect">
+          <div className='Name'>Ahmed Al-Balaghi</div>
+          <div className='Designation'>CEO, Biconomy</div>
+          <LI src={require('./assets/images/linkedin-3-512.png')}></LI>
+          <T src={require('./assets/images/pngguru.com.png')}></T>
+          <E src={require('./assets/images/Extra.png')}></E>
+          <div className='ProfilePic'></div>
+          <div className='Hash'>#</div>
+          <div className='Comment'>Truly Outstanding</div>
+        </Carousel.Item>
+        <Carousel.Item  id="reflect">
+          <div className='Name'>Aniket Jindal</div>
+          <div className='Designation'>COO, Biconomy</div>
+          <LI src={require('./assets/images/linkedin-3-512.png')}></LI>
+          <T src={require('./assets/images/pngguru.com.png')}></T>
+          <E src={require('./assets/images/Extra.png')}></E>
+          <div className='ProfilePic'></div>
+          <div className='Hash'>#</div>
+          <div className='Comment'>Great sense of designing! Dedicated towards his work and his dreams.</div>
+        </Carousel.Item>
+        <Carousel.Item  id="reflect">
+          <div className='Name'>Sachin Tomar</div>
+          <div className='Designation'>CTO, Biconomy</div>
+          <LI src={require('./assets/images/linkedin-3-512.png')}></LI>
+          <T src={require('./assets/images/pngguru.com.png')}></T>
+          <E src={require('./assets/images/Extra.png')}></E>
+          <div className='ProfilePic'></div>
+          <div className='Hash'>#</div>
+          <div className='Comment'>Truly Outstanding</div>
+        </Carousel.Item>
+        <Carousel.Item  id="reflect">
+          <div className='Name'>Divya Nailwal</div>
+          <div className='Designation'>Full Stack Developer, Biconomy</div>
+          <LI src={require('./assets/images/linkedin-3-512.png')}></LI>
+          <T src={require('./assets/images/pngguru.com.png')}></T>
+          <E src={require('./assets/images/Extra.png')}></E>
+          <div className='ProfilePic'></div>
+          <div className='Hash'>#</div>
+          <div className='Comment'>Truly Outstanding</div>
+        </Carousel.Item>
+        <Carousel.Item  id="reflect">
+          <div className='Name'>Tarun Gupta</div>
+          <div className='Designation'>Platform Engineer & Researcher, Biconomy</div>
+          <LI src={require('./assets/images/linkedin-3-512.png')}></LI>
+          <T src={require('./assets/images/pngguru.com.png')}></T>
+          <E src={require('./assets/images/Extra.png')}></E>
+          <div className='ProfilePic'></div>
+          <div className='Hash'>#</div>
+          <div className='Comment'>Truly Outstanding</div>
+        </Carousel.Item>
+        <Carousel.Item  id="reflect">
+          <div className='Name'>Anubhav Girdhar</div>
+          <div className='Designation'>Blockchain Engineer, Biconomy</div>
+          <LI src={require('./assets/images/linkedin-3-512.png')}></LI>
+          <T src={require('./assets/images/pngguru.com.png')}></T>
+          <E src={require('./assets/images/Extra.png')}></E>
+          <div className='ProfilePic'></div>
+          <div className='Hash'>#</div>
+          <div className='Comment'>Truly Outstanding</div>
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 }
 
-export default Default;
+const LI = styled.img`
+  display: flex;
+  max-width: 4.5%;
+  max-height: 7%;
+  margin-left: 66%;
+  margin-top: -6%;
+`;
+
+const T = styled.img`
+  display: flex;
+  max-width: 4.5%;
+  max-height: 7%;
+  margin-left: 78%;
+  margin-top: -4%;
+`;
+
+const E = styled.img`
+  display: flex;
+  max-width: 1%;
+  max-height: 6%;
+  margin-left: 90%;
+  margin-top: -3.5%;
+`;
+
+export default App;
