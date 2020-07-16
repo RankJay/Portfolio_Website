@@ -6,3 +6,4 @@ You can download and run it on your local server using http://localhost:300
 - React JS
 - CSS
 - Materialize
+- Next JS
