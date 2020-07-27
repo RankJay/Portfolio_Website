@@ -15,3 +15,4 @@ yarn start
 - Next JS
 - Microsoft Azure
 - CI/CD DevOps
+- Dialogflow
