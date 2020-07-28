@@ -5,6 +5,7 @@ You can download and run it on your local server using http://localhost:3000
 ## Commands:
 ```
 yarn start
+yarn run deploy
 ```
 
 ## Technologies used:
