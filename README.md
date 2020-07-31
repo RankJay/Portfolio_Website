@@ -16,4 +16,5 @@ yarn run deploy
 - Next JS
 - Microsoft Azure
 - CI/CD DevOps
+- Azure Bot Services
 - Dialogflow
