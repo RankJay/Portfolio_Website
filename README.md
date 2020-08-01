@@ -1,6 +1,7 @@
 # Portfolio_Website
 This Repository contains the code to my Portfolio Website <br>
-You can download and run it on your local server using https://localhost:3000
+You can download and run it on your local server using https://localhost:3000 <br>
+You can also run it on a global server using https://rankjay.com
 
 ## Commands:
 ```
