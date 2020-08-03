@@ -1,5 +1,5 @@
 # Portfolio_Website
-This Repository contains the code to my Portfolio Website <br>
+This Repository contains the code to my Portfolio Website. It is made using react.js. <br>
 You can download and run it on your local server using https://localhost:3000 <br>
 You can also run it on a global server using https://rankjay.com
 
