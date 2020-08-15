@@ -1,0 +1,82 @@
+.AchievementsPage {
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.Achievement {
+  margin-top: 4%;
+  font-family: Raleway-Light;
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin-left: 8%;
+}
+.Year {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  font-family: Gilroy-Medium;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.YearName {
+  padding: 20px;
+}
+
+.YearName:hover {
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.Content1 {
+  margin-top: 2%;
+  margin-left: 8%;
+  display: flex;
+}
+
+.ParticipationTitle {
+  font-family: Raleway-Light;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.Community {
+  margin-left: 40%;
+}
+
+.CommunityTitle {
+  font-family: Raleway-Light;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.Registry {
+  margin-top: 4%;
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(./assets/fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: local('Raleway-Light'), url(./assets/fonts/Raleway-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: local('Raleway-Medium'), url(./assets/fonts/Raleway-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: local('Raleway-SemiBold'), url(./assets/fonts/Raleway-SemiBold.ttf) format('truetype');
+}
