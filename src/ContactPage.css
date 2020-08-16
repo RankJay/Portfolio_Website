@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(./assets/fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: local('Raleway-Regular'), url(./assets/fonts/Raleway-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: local('Raleway-Medium'), url(./assets/fonts/Raleway-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: local('Gilroy-Black'), url(./assets/fonts/Gilroy-Black.ttf) format('truetype');
+}
+
+
+.ContactPage {
+  color: #ffffff;
+}
+
+a {
+  color: #474747;
+  text-decoration: none;
+}
+
+.inlineContactTitle {
+  width: 100vw;
+  display: inline-flex;
+}
+
+.ContactTitle1 {
+  font-family: Gilroy-Black;
+  background: -webkit-linear-gradient(#ffffff, #c6c6c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  font-size: 600%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.ContactTitle2 {
+  font-family: Gilroy-Black;
+  color: #161616;
+  letter-spacing: 2px;
+  font-size: 600%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.ContactTitle3 {
+  font-family: Gilroy-Black;
+  background: -webkit-linear-gradient(#ffffff, #c6c6c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  font-size: 600%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.social-media1 {
+  width: 100px;
+  display: flex;
+  font-family: Raleway-Regular;
+  color: #474747;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-left: 8.2%;
+  margin-top: 8%;
+}
+
+.fac {
+  margin-right: 20%;
+}
+
+.fac:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.ins {
+  margin-right: 20%;
+}
+
+.ins:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.twi {
+  margin-right: 20%;
+}
+
+.twi:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.pin {
+  margin-right: 20%;
+}
+
+.pin:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.beh {
+  margin-right: 20%;
+}
+
+.beh:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.social-media2 {
+  width: 100px;
+  display: flex;
+  font-family: Raleway-Regular;
+  color: #474747;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-left: 8.2%;
+  margin-top: 2%;
+}
+
+.lin {
+  margin-right: 20%;
+}
+
+.lin:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.git {
+  margin-right: 20%;
+}
+
+.git:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.mai {
+  margin-right: 20%;
+}
+
+.mai:hover {
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.R {
+  width: 30%;
+margin-top: -13%;
+margin-left: 65%;
+}
+
+.Since {
+  display: inline-flex;
+width: 30%;
+margin-top: -25%;
+margin-left: 0%;
+}
