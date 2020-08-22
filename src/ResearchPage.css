@@ -1,0 +1,54 @@
+.ResearchPage {
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.Titl {
+  font-family: Raleway-SemiBold;
+  font-size: 150%;
+  margin-left: 8%;
+  margin-top: 5%;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+.List {
+  margin-top: 5%;
+margin-left: 5.55%;
+	width: 425px;
+}
+.item {
+  margin-left: 8%;
+  font-family: Raleway-Medium;
+  font-size: 20px;
+  color: #505050;
+  padding-bottom: 28px;
+  transition: 0.25s;
+}
+
+.item:hover {
+  transform: scale(1.25);
+  margin-left: 18%;
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(./assets/fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: local('Raleway-Light'), url(./assets/fonts/Raleway-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: local('Raleway-Medium'), url(./assets/fonts/Raleway-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: local('Raleway-SemiBold'), url(./assets/fonts/Raleway-SemiBold.ttf) format('truetype');
+}
