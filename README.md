@@ -22,3 +22,4 @@ yarn run deploy
 - Azure Cognitive services
 - Azure Bot Services
 - Dialogflow
+- Azure Web App
