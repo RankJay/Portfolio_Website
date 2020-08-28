@@ -18,7 +18,7 @@ yarn run deploy
 - Materialize
 - Next JS
 - Microsoft Azure
-- CI/CD DevOps
+- Azure CI/CD DevOps
 - Azure Cognitive services
 - Azure Bot Services
 - Dialogflow
