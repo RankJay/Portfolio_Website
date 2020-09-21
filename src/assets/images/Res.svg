@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2811" height="1596" viewBox="0 0 2811 1596">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.839" cy="0.797" r="0.678" gradientTransform="matrix(1, 0.004, -0.005, 1.335, 0.004, -0.27)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e0e0e"/>
+      <stop offset="1" stop-color="#070707"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.667" cy="0.567" r="0.672" gradientTransform="matrix(1, 0.027, -0.029, 1.072, 0.017, -0.062)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#242424"/>
+      <stop offset="1" stop-color="#1e1e1e"/>
+    </radialGradient>
+    <filter id="Rectangle_58" x="1362" y="160" width="583" height="563" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_58-2" x="367" y="270" width="453" height="440" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_58-3" x="2357" y="270" width="454" height="440" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-7" cx="0.839" cy="0.203" r="0.678" gradientTransform="matrix(1, -0.004, -0.005, -1.335, 0.001, 0.478)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="0.667" cy="0.433" r="0.672" gradientTransform="matrix(1, -0.027, -0.029, -1.072, 0.013, 0.919)" xlink:href="#radial-gradient-2"/>
+    <filter id="Rectangle_58-4" x="1362" y="872" width="583" height="564" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_58-5" x="367" y="886" width="453" height="439" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_58-6" x="2357" y="886" width="454" height="439" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-6"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_129" data-name="Group 129" transform="translate(-10292 -1376)">
+    <g id="Group_126" data-name="Group 126" transform="translate(11157.891 1376)">
+      <rect id="Rectangle_57" data-name="Rectangle 57" width="924" height="745" rx="33" transform="translate(0.109)" fill="url(#radial-gradient)"/>
+      <g id="Group_76" data-name="Group 76" transform="translate(855.541 77.62)">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="3.5" cy="3.5" r="3.5" transform="translate(6.569 31.38) rotate(180)" fill="#fff"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="3.5" cy="3.5" r="3.5" transform="translate(6.569 19.38) rotate(180)" fill="#fff"/>
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="3.5" cy="3.5" r="3.5" transform="translate(6.569 7.38) rotate(180)" fill="#fff"/>
+      </g>
+      <text id="Anisotropic_Compact_Star_model_based_on_Karmakar_conditions" data-name="Anisotropic Compact Star model
+based on Karmakar conditions" transform="translate(55.109 84)" fill="#fff" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Anisotropic Compact Star model</tspan><tspan x="0" y="42">based on Karmakar conditions</tspan></text>
+      <text id="Journal_:" data-name="Journal :" transform="translate(55.109 601)" fill="#fff" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Journal :</tspan></text>
+      <text id="Dr._D._M._Pandya_J._P._Rank" data-name="Dr. D. M. Pandya | J. P. Rank" transform="translate(55.109 203)" fill="#5f5f5f" font-size="27" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Dr. D. M. Pandya | J. P. Rank</tspan></text>
+      <text id="Astrophysics_and_Space_Science_journal" data-name="Astrophysics and Space
+Science journal" transform="translate(55.109 653)" fill="#5f5f5f" font-size="27" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Astrophysics and Space</tspan><tspan x="0" y="31">Science journal</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -865.89, 0)" filter="url(#Rectangle_58)">
+        <rect id="Rectangle_58-7" data-name="Rectangle 58" width="523" height="503" rx="33" transform="translate(1392 190)" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Group_125" data-name="Group 125" transform="translate(10292 1534.689)" opacity="0.37">
+      <rect id="Rectangle_57-2" data-name="Rectangle 57" width="697" height="560" rx="33" transform="translate(0 0.311)" fill="url(#radial-gradient)"/>
+      <g id="Group_76-2" data-name="Group 76" transform="translate(641.656 55.196)">
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(5.344 26.115) rotate(180)" fill="#fff"/>
+        <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" transform="translate(5.344 15.115) rotate(180)" fill="#fff"/>
+        <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="2.5" cy="2.5" r="2.5" transform="translate(5.344 5.115) rotate(180)" fill="#fff"/>
+      </g>
+      <text id="Federation_Learning_based_differential_RNN_classifier_model" data-name="Federation Learning based differential
+RNN classifier model" transform="translate(40 60.311)" fill="#fff" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Federation Learning based differential</tspan><tspan x="0" y="30">RNN classifier model</tspan></text>
+      <text id="J._P._Rank" data-name="J. P. Rank" transform="translate(40 150.311)" fill="#5f5f5f" font-size="20" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">J. P. Rank</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, -158.69)" filter="url(#Rectangle_58-2)">
+        <rect id="Rectangle_58-8" data-name="Rectangle 58" width="393" height="380" rx="33" transform="translate(397 300)" fill="url(#radial-gradient-2)"/>
+      </g>
+      <text id="Journal_:-2" data-name="Journal :" transform="translate(40 434.311)" fill="#fff" font-size="23" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Journal :</tspan></text>
+      <text id="CODE_IEEE_-_Blockchain_and_WEB_3.0" data-name="CODE IEEE - Blockchain and
+WEB 3.0" transform="translate(40 470.311)" fill="#5f5f5f" font-size="18" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">CODE IEEE - Blockchain and</tspan><tspan x="0" y="21">WEB 3.0</tspan></text>
+    </g>
+    <g id="Group_127" data-name="Group 127" transform="translate(12282.513 1534.689)" opacity="0.37">
+      <rect id="Rectangle_57-3" data-name="Rectangle 57" width="696" height="560" rx="33" transform="translate(0.487 0.311)" fill="url(#radial-gradient)"/>
+      <text id="HCI_based_Criminal_Psychology_using_Cognitive_Services" data-name="HCI based Criminal Psychology
+using Cognitive Services" transform="translate(39.487 60.311)" fill="#fff" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">HCI based Criminal Psychology</tspan><tspan x="0" y="30">using Cognitive Services</tspan></text>
+      <text id="J._P._Rank-2" data-name="J. P. Rank" transform="translate(39.487 152.311)" fill="#5f5f5f" font-size="20" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">J. P. Rank</tspan></text>
+      <text id="Journal_:-3" data-name="Journal :" transform="translate(39.487 443.311)" fill="#fff" font-size="23" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Journal :</tspan></text>
+      <text id="IEEE_Cognitive_Technology_and_Neuroscience_journal" data-name="IEEE Cognitive Technology and
+Neuroscience journal" transform="translate(39.487 479.311)" fill="#5f5f5f" font-size="18" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">IEEE Cognitive Technology and</tspan><tspan x="0" y="21">Neuroscience journal</tspan></text>
+      <g id="Group_76-3" data-name="Group 76" transform="translate(645.106 51.746)">
+        <circle id="Ellipse_4-3" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(5.381 25.565) rotate(180)" fill="#fff"/>
+        <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" transform="translate(5.381 15.565) rotate(180)" fill="#fff"/>
+        <ellipse id="Ellipse_6-3" data-name="Ellipse 6" cx="2.5" cy="3" rx="2.5" ry="3" transform="translate(5.381 5.565) rotate(180)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -1990.51, -158.69)" filter="url(#Rectangle_58-3)">
+        <rect id="Rectangle_58-9" data-name="Rectangle 58" width="394" height="380" rx="33" transform="translate(2387 300)" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Group_128" data-name="Group 128" transform="translate(10292 2226.366)" opacity="0.17">
+      <g id="Group_105" data-name="Group 105" transform="translate(865.89)">
+        <rect id="Rectangle_57-4" data-name="Rectangle 57" width="924" height="746" rx="33" transform="translate(0.109 -0.366)" fill="url(#radial-gradient-7)"/>
+        <g id="Group_76-4" data-name="Group 76" transform="translate(855.541 636.481)">
+          <circle id="Ellipse_4-4" data-name="Ellipse 4" cx="3.5" cy="3.5" r="3.5" transform="translate(6.569 7.153) rotate(180)" fill="#fff"/>
+          <circle id="Ellipse_5-4" data-name="Ellipse 5" cx="3.5" cy="3.5" r="3.5" transform="translate(6.569 19.153) rotate(180)" fill="#fff"/>
+          <circle id="Ellipse_6-4" data-name="Ellipse 6" cx="3.5" cy="3.5" r="3.5" transform="translate(6.569 31.153) rotate(180)" fill="#fff"/>
+        </g>
+        <text id="Anisotropic_Compact_Star_model_based_on_Karmakar_conditions-2" data-name="Anisotropic Compact Star model
+based on Karmakar conditions" transform="matrix(1, 0, 0, -1, 55.109, 658.634)" fill="#fff" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Anisotropic Compact Star model</tspan><tspan x="0" y="42">based on Karmakar conditions</tspan></text>
+        <text id="Journal_:-4" data-name="Journal :" transform="matrix(1, 0, 0, -1, 55.109, 142.634)" fill="#fff" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Journal :</tspan></text>
+        <text id="Dr._D._M._Pandya_J._P._Rank-2" data-name="Dr. D. M. Pandya | J. P. Rank" transform="matrix(1, 0, 0, -1, 55.109, 540.634)" fill="#5f5f5f" font-size="27" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Dr. D. M. Pandya | J. P. Rank</tspan></text>
+        <text id="Astrophysics_and_Space_Science_journal-2" data-name="Astrophysics and Space
+Science journal" transform="matrix(1, 0, 0, -1, 55.109, 88.634)" fill="#5f5f5f" font-size="27" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Astrophysics and Space</tspan><tspan x="0" y="31">Science journal</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, -865.89, -850.37)" filter="url(#Rectangle_58-4)">
+          <rect id="Rectangle_58-10" data-name="Rectangle 58" width="523" height="504" rx="33" transform="translate(1392 902)" fill="url(#radial-gradient-8)"/>
+        </g>
+      </g>
+      <g id="Group_106" data-name="Group 106" transform="translate(0 25.873)" opacity="0.37">
+        <rect id="Rectangle_57-5" data-name="Rectangle 57" width="697" height="561" rx="33" transform="translate(0 -0.24)" fill="url(#radial-gradient-7)"/>
+        <g id="Group_76-5" data-name="Group 76" transform="translate(641.656 479.517)">
+          <circle id="Ellipse_4-5" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(5.345 5.244) rotate(180)" fill="#fff"/>
+          <circle id="Ellipse_5-5" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" transform="translate(5.345 15.244) rotate(180)" fill="#fff"/>
+          <ellipse id="Ellipse_6-5" data-name="Ellipse 6" cx="2.5" cy="3" rx="2.5" ry="3" transform="translate(5.345 26.244) rotate(180)" fill="#fff"/>
+        </g>
+        <text id="Federation_Learning_based_differential_RNN_classifier_model-2" data-name="Federation Learning based differential
+RNN classifier model" transform="matrix(1, 0, 0, -1, 40, 498.76)" fill="#fff" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Federation Learning based differential</tspan><tspan x="0" y="30">RNN classifier model</tspan></text>
+        <text id="J._P._Rank-3" data-name="J. P. Rank" transform="matrix(1, 0, 0, -1, 40, 410.76)" fill="#5f5f5f" font-size="20" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">J. P. Rank</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, 0, -876.24)" filter="url(#Rectangle_58-5)">
+          <rect id="Rectangle_58-11" data-name="Rectangle 58" width="393" height="379" rx="33" transform="translate(397 916)" fill="url(#radial-gradient-8)"/>
+        </g>
+        <text id="Journal_:-5" data-name="Journal :" transform="matrix(1, 0, 0, -1, 40, 125.76)" fill="#fff" font-size="23" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Journal :</tspan></text>
+        <text id="CODE_IEEE_-_Blockchain_and_WEB_3.0-2" data-name="CODE IEEE - Blockchain and
+WEB 3.0" transform="matrix(1, 0, 0, -1, 40, 86.76)" fill="#5f5f5f" font-size="18" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">CODE IEEE - Blockchain and</tspan><tspan x="0" y="21">WEB 3.0</tspan></text>
+      </g>
+      <g id="Group_107" data-name="Group 107" transform="translate(1990.513 25.873)" opacity="0.37">
+        <rect id="Rectangle_57-6" data-name="Rectangle 57" width="696" height="561" rx="33" transform="translate(0.487 -0.24)" fill="url(#radial-gradient-7)"/>
+        <text id="HCI_based_Criminal_Psychology_using_Cognitive_Services-2" data-name="HCI based Criminal Psychology
+using Cognitive Services" transform="matrix(1, 0, 0, -1, 39.487, 498.76)" fill="#fff" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">HCI based Criminal Psychology</tspan><tspan x="0" y="30">using Cognitive Services</tspan></text>
+        <text id="J._P._Rank-4" data-name="J. P. Rank" transform="matrix(1, 0, 0, -1, 39.487, 408.76)" fill="#5f5f5f" font-size="20" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">J. P. Rank</tspan></text>
+        <text id="Journal_:-6" data-name="Journal :" transform="matrix(1, 0, 0, -1, 39.487, 116.76)" fill="#fff" font-size="23" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">Journal :</tspan></text>
+        <text id="IEEE_Cognitive_Technology_and_Neuroscience_journal-2" data-name="IEEE Cognitive Technology and
+Neuroscience journal" transform="matrix(1, 0, 0, -1, 39.487, 78.76)" fill="#5f5f5f" font-size="18" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">IEEE Cognitive Technology and</tspan><tspan x="0" y="21">Neuroscience journal</tspan></text>
+        <g id="Group_76-6" data-name="Group 76" transform="translate(645.106 482.967)">
+          <circle id="Ellipse_4-6" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(5.382 4.794) rotate(180)" fill="#fff"/>
+          <circle id="Ellipse_5-6" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" transform="translate(5.382 15.794) rotate(180)" fill="#fff"/>
+          <circle id="Ellipse_6-6" data-name="Ellipse 6" cx="2.5" cy="2.5" r="2.5" transform="translate(5.382 25.794) rotate(180)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -1990.51, -876.24)" filter="url(#Rectangle_58-6)">
+          <rect id="Rectangle_58-12" data-name="Rectangle 58" width="394" height="379" rx="33" transform="translate(2387 916)" fill="url(#radial-gradient-8)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
