@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import { Component } from "react";
 import styled from "styled-components";
-import './assets/images/Group_1111.png';
 import './assets/fonts/Gilroy-Medium.ttf';
 import './assets/fonts/Raleway-Light.ttf';
 import './assets/fonts/Raleway-Medium.ttf';
@@ -19,7 +18,7 @@ class Home extends React.Component {
         <div className='Dev'>Dreamer. Designer. Developer.</div>
         </div>
         <div className="MobileView">
-            <Image1 src={require("./BG.png")} className='img'></Image1>
+            {/* <Image1 src={require("./BG.png")} className='img'></Image1> */}
         </div>
       </div>
     );

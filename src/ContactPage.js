@@ -25,7 +25,6 @@ class ContactPage extends React.Component {
           <div className='mai'><a href='facebook.com' className='mai'>Mail</a></div>
         </div>
         <img src={require('./assets/images/ContactR.png')} className='R' />
-        <img src={require('./assets/images/Since.png')} className='Since' />
       </div>
     );
   }

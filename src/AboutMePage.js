@@ -7,7 +7,6 @@ import './assets/images/filmtocat.png';
 import './assets/images/AboutMeTitle.png';
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import App from "./App";
 // import M from 'materialize-css';
 // import 'materialize-css/dist/css/materialize.min.css';
 import Carousel from 'react-bootstrap/Carousel';

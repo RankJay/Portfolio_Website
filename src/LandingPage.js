@@ -1,16 +1,13 @@
 import React from 'react';
 import Home from './Home';
-import Default from './Default';
 import AboutMePage from "./AboutMePage";
 import SkillsPage from "./SkillsPage";
 import AchievementsPage from "./AchievementsPage";
 import ResearchPage from "./ResearchPage";
 import ProjectsPage from "./ProjectsPage";
-import GalleryPage from "./GalleryPage";
 import ContactPage from "./ContactPage";
 import './LandingPage.css';
 import styled from "styled-components";
-import './assets/images/Group_1111.png';
 import './assets/fonts/Gilroy-Medium.ttf';
 import './assets/fonts/Raleway-Light.ttf';
 import './assets/fonts/Raleway-Medium.ttf';
@@ -61,7 +58,6 @@ class LandingPage extends React.Component {
               <div className="Achievements"><Lnk to="/AchievementsPage">Achievements</Lnk></div>
               <div className="Research"><Lnk to="/ResearchPage">Research</Lnk></div>
               <div className="Projects"><Lnk to="/ProjectsPage">Projects</Lnk></div>
-              <div className="Gallery"><Lnk to="/GalleryPage">Gallery</Lnk></div>
               <div className="Contact"><Lnk to="/ContactPage">Contact</Lnk></div>
             </div>
           </nav>
@@ -72,7 +68,6 @@ class LandingPage extends React.Component {
               <Route path='/AchievementsPage' component={AchievementsPage} />
               <Route path='/ResearchPage' component={ResearchPage} />
               <Route path='/ProjectsPage' component={ProjectsPage} />
-              <Route path='/GalleryPage' component={Default} />
               <Route path='/ContactPage' component={ContactPage} />
               <Route path='/' component={Home} />
             </Switch>
